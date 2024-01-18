@@ -1,0 +1,12 @@
+import model sm
+generate e+ e- > z h > mu+ mu- ta+ ta-
+output ee_zh_mumutautau_sm_jan24
+launch
+shower=Pythia8
+set lpp1 -3
+set lpp2 +3
+set ebeam1 120
+set ebeam2 120
+set pdlabel isronlyll
+set bypass_check partonshower
+set nevents 20000
