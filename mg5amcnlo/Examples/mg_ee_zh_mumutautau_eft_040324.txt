@@ -1,0 +1,22 @@
+import model SMEFTsim_U35_MwScheme_UFO-CPV_massless
+generate e+ e- > mu+ mu- ta+ ta- QCD=0 SMHLOOP=1 NP=1 NPcpv^2==1
+output ee_mumutautau_smeft_PDFs_50000events_040324_Run1
+launch
+shower=Pythia8
+set use_syst False
+set cgtil 0
+set cwtil 0
+set chgtil 0
+set chbtil 1
+set chwtil 0
+set chwbtil 0
+set ymtau 1.776860e+01
+set mta 1.776860e+01
+set lpp1 -3
+set lpp2 +3
+set ebeam1 120
+set ebeam2 120
+set pdlabel isronlyll
+set bypass_check partonshower
+set nevents 50000
+set iseed 1
